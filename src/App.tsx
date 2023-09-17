@@ -43,6 +43,7 @@ const App: Component = () => {
       <span id="todo-input" class='grid grid-cols-12 mb-10 gap-10 inline-block'>
         <input
           type="text" id='subscription-email-text-field' value={value()} onchange={(e) => setValue(e.target.value)}
+          placeholder='Enter your todo...'
           class="align-top inline-block h-12 m-0 col-span-11 py-2 px-2 shadow-md outline-none border-b-2 border-black rounded-md"
           classList={{"bg-blue-950": darkTheme()}}
         />
