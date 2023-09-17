@@ -1,3 +1,10 @@
+# SolidJS todo application
+This is a simple todo application built with solidJS while I was grasping the concept of context, signals and more
+
+## Features
+- Create todo
+- Delete todo
+- Change theme
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
